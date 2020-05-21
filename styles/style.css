@@ -230,10 +230,22 @@ body {
   font: 400 1.25rem/1.4 Lato, sans-serif;
 }
 
-.logo p, h1, h2, h3, a, button {
+.logo p, h1, h2, a, button, .aside-content h3 {
   font-family: Dokdo, cursive;
 }
 
-.top-nav a {
+.top-nav a, h3, ::-webkit-input-placeholder {
+  font-family: Lato, sans-serif;
+}
+
+.top-nav a, h3, :-ms-input-placeholder {
+  font-family: Lato, sans-serif;
+}
+
+.top-nav a, h3, ::-ms-input-placeholder {
+  font-family: Lato, sans-serif;
+}
+
+.top-nav a, h3, ::placeholder {
   font-family: Lato, sans-serif;
 }

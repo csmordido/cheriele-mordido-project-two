@@ -2,10 +2,10 @@ body {
   font: 400 1.25rem/1.4 $font-sans-serif;
 }
 
-.logo p, h1, h2, h3, a, button {
+.logo p, h1, h2, a, button, .aside-content h3 {
   font-family: $font-display;
 }
 
-.top-nav a {
+.top-nav a, h3, ::placeholder {
   font-family: $font-sans-serif;
 }

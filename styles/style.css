@@ -225,3 +225,7 @@ img {
   max-width: 100%;
   display: block;
 }
+
+body {
+  font: 400 1.25rem/1.4 Lato, sans-serif;
+}

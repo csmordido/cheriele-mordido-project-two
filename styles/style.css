@@ -229,3 +229,11 @@ img {
 body {
   font: 400 1.25rem/1.4 Lato, sans-serif;
 }
+
+.logo p, h1, h2, h3, a, button {
+  font-family: Dokdo, cursive;
+}
+
+.top-nav a {
+  font-family: Lato, sans-serif;
+}

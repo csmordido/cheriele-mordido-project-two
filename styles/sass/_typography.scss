@@ -1,4 +1,11 @@
 body {
-  font: 400 1.25rem/1.4 Lato, sans-serif;
+  font: 400 1.25rem/1.4 $font-sans-serif;
 }
 
+.logo p, h1, h2, h3, a, button {
+  font-family: $font-display;
+}
+
+.top-nav a {
+  font-family: $font-sans-serif;
+}

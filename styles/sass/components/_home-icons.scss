@@ -1,4 +1,4 @@
-div.about1-icon a {
+div.about1-icon {
   width: 50px;
   height: 50px;
   display: flex;
@@ -9,5 +9,4 @@ div.about1-icon a {
   background-color: $color-green;
   border-radius: 50%;
   border: 1px solid $color-green;
-  text-decoration: none;
 }

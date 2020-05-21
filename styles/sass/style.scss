@@ -8,3 +8,7 @@
 @import './components/links-buttons';
 @import './components/home-icons';
 @import './components/top-bar';
+
+body {
+  background-color: $color-brown;
+}

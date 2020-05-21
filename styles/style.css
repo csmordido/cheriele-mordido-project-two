@@ -300,3 +300,20 @@ div.about1-icon {
   border-radius: 50%;
   border: 1px solid #555f02;
 }
+
+.logo {
+  color: #ffc600;
+  font-size: 2.5rem;
+}
+
+.top-nav a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #fafffe;
+}
+
+.top-nav a:hover,
+.top-nav a:focus {
+  color: #ffc600;
+}

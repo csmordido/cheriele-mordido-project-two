@@ -1,0 +1,23 @@
+.intro-txt a, 
+.about2-content a, 
+.about3-content a {
+  @include link-styles;
+  text-decoration: none;
+}
+
+button {
+  @include link-styles;
+  border: none;
+}
+
+.intro-txt a:hover,
+.intro-txt a:focus, 
+.about2-content a:hover, 
+.about2-content a:focus,
+.about3-content a:hover,
+.about3-content a:focus,
+button:hover,
+button:focus {
+  color: $color-green;
+  background-color: $color-light;
+} 

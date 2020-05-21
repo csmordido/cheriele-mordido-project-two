@@ -249,3 +249,35 @@ body {
 .top-nav a, h3, ::placeholder {
   font-family: Lato, sans-serif;
 }
+
+.intro-txt a,
+.about2-content a,
+.about3-content a {
+  font-size: 1.8rem;
+  letter-spacing: 1px;
+  background-color: #555f02;
+  color: #fafffe;
+  padding: 10px;
+  text-decoration: none;
+}
+
+button {
+  font-size: 1.8rem;
+  letter-spacing: 1px;
+  background-color: #555f02;
+  color: #fafffe;
+  padding: 10px;
+  border: none;
+}
+
+.intro-txt a:hover,
+.intro-txt a:focus,
+.about2-content a:hover,
+.about2-content a:focus,
+.about3-content a:hover,
+.about3-content a:focus,
+button:hover,
+button:focus {
+  color: #555f02;
+  background-color: #fafffe;
+}

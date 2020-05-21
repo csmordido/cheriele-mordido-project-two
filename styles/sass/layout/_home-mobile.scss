@@ -1,0 +1,31 @@
+header {
+  background: url('../images/home-header.jpg') no-repeat bottom right;
+  background-size: cover;
+  height: 100vh;
+}
+
+.site-title {
+  margin: 0 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  h1 {
+    @include header-styles();
+    text-align: center;
+    line-height: 1;
+    display: inline-block;
+  }
+    span {
+      display: block;
+      font-family: $font-sans-serif;
+      @include header-styles(1.3rem, $color-light);
+      letter-spacing: 2px; 
+      text-align: left;
+    }
+}
+
+.header-block-img {
+  display: none;
+}
+

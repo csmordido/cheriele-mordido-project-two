@@ -5,3 +5,8 @@
   color: $color-light;
   padding: 10px;
 }
+
+@mixin header-styles($font-size: 3.5rem, $font-color: $color-gold) {
+  font-size: $font-size;
+  color: $font-color;
+}

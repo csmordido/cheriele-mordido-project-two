@@ -8,7 +8,9 @@
 @import './components/links-buttons';
 @import './components/home-icons';
 @import './components/top-bar';
+@import './layout/home-mobile';
 
 body {
   background-color: $color-brown;
+  color: $color-light;
 }

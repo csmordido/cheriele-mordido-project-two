@@ -308,7 +308,7 @@ div.about1-icon {
 }
 
 input[type="checkbox"] {
-  opacity: 1;
+  opacity: 0;
   position: absolute;
 }
 
@@ -326,18 +326,14 @@ input[type="checkbox"] {
   padding: 5%;
 }
 
-.logo, .top-nav {
-  -webkit-box-flex: 1;
-      -ms-flex: 1 0 40%;
-          flex: 1 0 40%;
-}
-
-form {
-  text-align: right;
-}
-
 .top-nav {
   position: relative;
+}
+
+.top-nav label {
+  cursor: pointer;
+  font-size: 1.7rem;
+  line-height: 1;
 }
 
 .top-nav ul {
@@ -370,7 +366,7 @@ form {
   padding: 5px 10px;
 }
 
-input[type="checkbox"]:checked .top-nav ul {
+input[type="checkbox"]:checked + ul {
   display: block;
 }
 

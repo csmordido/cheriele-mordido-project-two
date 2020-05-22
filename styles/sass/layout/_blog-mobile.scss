@@ -19,7 +19,7 @@
 
 .blog-text {
   h2 {
-    @include header-styles(1.5rem);
+    @include header-styles(2rem);
     letter-spacing: 2px;
     line-height: 0.9;
     margin-top: 50px;
@@ -35,8 +35,44 @@
   }
   p {
     margin-bottom: 20px;
+    font-size: 1rem;
     &:last-child {
       margin-bottom: 0;
+    }
+  }
+}
+
+.comments {
+  padding: 0 5% 50px 5%;
+  h2 {
+    @include header-styles(2rem, $color-light);
+    letter-spacing: 2px;
+    line-height: 0.9;
+    margin-bottom: 30px;
+  }
+}
+
+.comments-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 100px;
+  &:last-child {
+    margin-bottom: 0;
+  }
+  .comments-img {
+    display: flex;
+    justify-content: center;
+    img {
+      max-width: 92px;
+    }
+  }
+  .comments-text {
+    font-size: 1rem;
+    h3 {
+      @include header-styles(1rem);
+      font-weight: 400;
+      margin: 10px 0;
     }
   }
 }

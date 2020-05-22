@@ -616,7 +616,7 @@ footer p {
 }
 
 .blog-text h2 {
-  font-size: 1.5rem;
+  font-size: 2rem;
   color: #ffc600;
   letter-spacing: 2px;
   line-height: 0.9;
@@ -637,8 +637,63 @@ footer p {
 
 .blog-text p {
   margin-bottom: 20px;
+  font-size: 1rem;
 }
 
 .blog-text p:last-child {
   margin-bottom: 0;
+}
+
+.comments {
+  padding: 0 5% 50px 5%;
+}
+
+.comments h2 {
+  font-size: 2rem;
+  color: #fafffe;
+  letter-spacing: 2px;
+  line-height: 0.9;
+  margin-bottom: 30px;
+}
+
+.comments-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 100px;
+}
+
+.comments-content:last-child {
+  margin-bottom: 0;
+}
+
+.comments-content .comments-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.comments-content .comments-img img {
+  max-width: 92px;
+}
+
+.comments-content .comments-text {
+  font-size: 1rem;
+}
+
+.comments-content .comments-text h3 {
+  font-size: 1rem;
+  color: #ffc600;
+  font-weight: 400;
+  margin: 10px 0;
 }

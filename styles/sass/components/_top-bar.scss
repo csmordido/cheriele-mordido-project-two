@@ -1,7 +1,7 @@
 .logo {
   color: $color-gold;
-  font-size: 2rem;
-  line-height: 1;
+  font-size: 1.8rem;
+  line-height: 1.2;
 }
 
 input[type="checkbox"] {
@@ -36,7 +36,7 @@ input[type="checkbox"] {
 
 .top-nav li {
   text-align: right;
-  background-color: $color-green;
+  background-color: $color-green-rgba;
   display: flex;
   align-items: center;
   justify-content: center;

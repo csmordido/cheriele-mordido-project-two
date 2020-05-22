@@ -2,15 +2,14 @@
 @import './base/variables';
 @import './base/mixins';
 @import './base/typography';
+@import './base/wrapper';
 
 
 // components
 @import './components/links-buttons';
 @import './components/home-icons';
 @import './components/top-bar';
+
+// layouts
 @import './layout/home-mobile';
 
-body {
-  background-color: $color-brown;
-  color: $color-light;
-}

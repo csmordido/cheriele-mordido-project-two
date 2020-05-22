@@ -227,7 +227,8 @@ img {
 }
 
 body {
-  font: 400 1.25rem/1.4 Lato, sans-serif;
+  font: 400 1.1rem/1.4 Lato, sans-serif;
+  letter-spacing: 1px;
 }
 
 .logo p, h1, h2, a, button, .aside-content h3 {
@@ -250,6 +251,12 @@ body {
   font-family: Lato, sans-serif;
 }
 
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 90%;
+}
+
 .intro-txt a,
 .about2-content a,
 .about3-content a {
@@ -257,7 +264,7 @@ body {
   letter-spacing: 1px;
   background-color: #555f02;
   color: #fafffe;
-  padding: 10px;
+  padding: 5px 10px;
   text-decoration: none;
 }
 
@@ -266,7 +273,7 @@ button {
   letter-spacing: 1px;
   background-color: #555f02;
   color: #fafffe;
-  padding: 10px;
+  padding: 5px 10px;
   border: none;
 }
 
@@ -303,8 +310,8 @@ div.about1-icon {
 
 .logo {
   color: #ffc600;
-  font-size: 2rem;
-  line-height: 1;
+  font-size: 1.8rem;
+  line-height: 1.2;
 }
 
 input[type="checkbox"] {
@@ -345,7 +352,7 @@ input[type="checkbox"] {
 
 .top-nav li {
   text-align: right;
-  background-color: #555f02;
+  background-color: rgba(85, 95, 2, 0.6);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -370,6 +377,11 @@ input[type="checkbox"]:checked + ul {
   display: block;
 }
 
+body {
+  background-color: #1e140e;
+  color: #fafffe;
+}
+
 header {
   background: url("../images/home-header.jpg") no-repeat bottom right;
   background-size: cover;
@@ -387,7 +399,7 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 200px;
+  height: 220px;
 }
 
 .site-title h1 {
@@ -411,7 +423,38 @@ header {
   display: none;
 }
 
-body {
-  background-color: #1e140e;
-  color: #fafffe;
+section.intro {
+  padding: 50px 0;
+}
+
+.intro-txt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.intro-txt h2 {
+  font-size: 2rem;
+  color: #ffc600;
+  letter-spacing: 2px;
+}
+
+.intro-txt a {
+  margin-bottom: 30px;
+}
+
+.intro-txt p {
+  margin-bottom: 30px;
+}
+
+div.intro-img {
+  -webkit-box-shadow: -15px 15px #555f02;
+          box-shadow: -15px 15px #555f02;
 }

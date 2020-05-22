@@ -38,7 +38,7 @@ section.intro,
 section.gallery, 
 section.about1, 
 section.about2 {
-  padding: 50px 0;
+  padding: 100px 0;
 }
 
 .intro-txt {
@@ -136,7 +136,7 @@ section.about2 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0 5%;
+  padding: 50px 5%;
   h2 {
     @include header-styles(2rem);
       letter-spacing: 2px;

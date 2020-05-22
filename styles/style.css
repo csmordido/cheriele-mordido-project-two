@@ -427,7 +427,7 @@ section.intro,
 section.gallery,
 section.about1,
 section.about2 {
-  padding: 50px 0;
+  padding: 100px 0;
 }
 
 .intro-txt {
@@ -565,7 +565,7 @@ section.about2 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 0 5%;
+  padding: 50px 5%;
 }
 
 .about3-content h2 {

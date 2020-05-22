@@ -12,5 +12,5 @@
 }
 
 @mixin box-shadow($horizontal: -15px, $vertical: 15px, $color: $color-green) {
-  box-shadow: $horizontal $vertical $color-green;
+  box-shadow: $horizontal $vertical $color;
 }

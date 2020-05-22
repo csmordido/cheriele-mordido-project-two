@@ -1,12 +1,16 @@
 div.about1-icon {
-  width: 50px;
-  height: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 1.7rem;
-  color: $color-light;
-  background-color: $color-green;
-  border-radius: 50%;
-  border: 1px solid $color-green;
+    i {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 50px;
+      height: 50px;
+      font-size: 1.7rem;
+      color: $color-light;
+      background-color: $color-green;
+      border-radius: 50%;
+      border: 1px solid $color-green;
+    }
 }
+
+

@@ -260,7 +260,7 @@ body {
 .intro-txt a,
 .about2-content a,
 .about3-content a {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   letter-spacing: 1px;
   background-color: #555f02;
   color: #fafffe;
@@ -269,7 +269,7 @@ body {
 }
 
 button {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   letter-spacing: 1px;
   background-color: #555f02;
   color: #fafffe;
@@ -497,7 +497,7 @@ section.about2 {
 }
 
 .about1-content .about1-text h2 {
-  font-size: 1.8rem;
+  font-size: 2rem;
   color: #ffc600;
   letter-spacing: 2px;
   line-height: 0.9;
@@ -533,7 +533,7 @@ section.about2 {
 }
 
 .about2-content .about2-text h2 {
-  font-size: 1.8rem;
+  font-size: 2rem;
   color: #ffc600;
   letter-spacing: 2px;
   line-height: 0.9;
@@ -569,7 +569,7 @@ section.about2 {
 }
 
 .about3-content h2 {
-  font-size: 1.8rem;
+  font-size: 2rem;
   color: #ffc600;
   letter-spacing: 2px;
   line-height: 0.9;

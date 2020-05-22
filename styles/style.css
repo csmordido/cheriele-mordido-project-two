@@ -382,7 +382,7 @@ body {
   color: #fafffe;
 }
 
-header {
+.home-header {
   background: url("../images/home-header.jpg") no-repeat bottom right;
   background-size: cover;
   height: 100vh;
@@ -591,4 +591,54 @@ footer {
 
 footer p {
   text-align: center;
+}
+
+.blog-header {
+  height: 300px;
+  background: url("../images/blog-header.jpg") no-repeat bottom right -200px;
+  background-size: cover;
+}
+
+.blog-header h1 {
+  font-size: 3.5rem;
+  color: #ffc600;
+  margin-left: 5%;
+  margin-top: 75px;
+}
+
+.post {
+  padding: 50px 5%;
+}
+
+.post .blog-img {
+  -webkit-box-shadow: 15px 15px #555f02;
+          box-shadow: 15px 15px #555f02;
+}
+
+.blog-text h2 {
+  font-size: 1.5rem;
+  color: #ffc600;
+  letter-spacing: 2px;
+  line-height: 0.9;
+  margin-top: 50px;
+}
+
+.blog-text h3 {
+  font-size: 0.8rem;
+  color: #fafffe;
+  font-style: italic;
+  font-weight: 400;
+  margin: 10px 0 20px 0;
+}
+
+.blog-text h3 span {
+  font-weight: 700;
+}
+
+.blog-text p {
+  margin-bottom: 20px;
+}
+
+.blog-text p:last-child {
+  margin-bottom: 0;
 }

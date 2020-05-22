@@ -1,0 +1,42 @@
+.blog-header {
+  height: 300px;
+  background: url('../images/blog-header.jpg') no-repeat bottom right -200px;
+  background-size: cover;
+}
+
+.blog-header h1 {
+  @include header-styles();
+  margin-left: 5%;
+  margin-top: 75px;
+}
+
+.post {
+  padding: 50px 5%;
+  .blog-img {
+    @include box-shadow(15px);
+  }
+}
+
+.blog-text {
+  h2 {
+    @include header-styles(1.5rem);
+    letter-spacing: 2px;
+    line-height: 0.9;
+    margin-top: 50px;
+  }
+  h3 {
+    @include header-styles(0.8rem, $color-light);
+    font-style: italic;
+    font-weight: 400;
+    margin: 10px 0 20px 0;
+    span {
+      font-weight: 700;
+    }
+  }
+  p {
+    margin-bottom: 20px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}

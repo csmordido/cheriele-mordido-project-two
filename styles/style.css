@@ -377,6 +377,80 @@ input[type="checkbox"]:checked + ul {
   display: block;
 }
 
+form {
+  padding: 50px 5%;
+}
+
+form fieldset {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+form fieldset input[type="text"],
+form fieldset input[type="email"],
+form fieldset textarea {
+  width: 100%;
+  margin-bottom: 30px;
+  padding: 15px;
+  background-color: #1e140e;
+  color: #fafffe;
+  border: none;
+  border-bottom: 2px solid #ffc600;
+}
+
+form fieldset textarea {
+  width: 100%;
+  height: 200px;
+  border: 2px solid #ffc600;
+  font-family: Lato, sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+input[type="text"],
+input[type="email"],
+::-webkit-input-placeholder {
+  color: #fafffe;
+  opacity: 1;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+input[type="text"],
+input[type="email"],
+:-ms-input-placeholder {
+  color: #fafffe;
+  opacity: 1;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+input[type="text"],
+input[type="email"],
+::-ms-input-placeholder {
+  color: #fafffe;
+  opacity: 1;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+input[type="text"],
+input[type="email"],
+::placeholder {
+  color: #fafffe;
+  opacity: 1;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
 body {
   background-color: #1e140e;
   color: #fafffe;

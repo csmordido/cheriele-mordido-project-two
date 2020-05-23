@@ -378,7 +378,7 @@ input[type="checkbox"]:checked + ul {
 }
 
 form {
-  padding: 50px 5%;
+  padding: 50px 5% 100px 5%;
 }
 
 form fieldset {
@@ -672,7 +672,7 @@ section.about2 {
 }
 
 .post {
-  padding: 50px 5%;
+  padding: 100px 5%;
 }
 
 .post .blog-img {
@@ -763,6 +763,28 @@ section.about2 {
   margin: 10px 0;
 }
 
+aside {
+  background-color: #555f02;
+}
+
+aside .aside-content {
+  padding: 100px 5%;
+}
+
+aside .aside-content h3 {
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+  margin: 15px 0 5px 0;
+}
+
+aside .aside-content h3:last-of-type {
+  margin-top: 25px;
+}
+
+aside .aside-content p, aside .aside-content ul {
+  font-size: 1rem;
+}
+
 footer {
   padding: 10px;
   background-color: #262725;
@@ -770,4 +792,5 @@ footer {
 
 footer p {
   text-align: center;
+  font-size: 1rem;
 }

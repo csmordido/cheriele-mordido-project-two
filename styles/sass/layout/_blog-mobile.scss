@@ -11,7 +11,7 @@
 }
 
 .post {
-  padding: 50px 5%;
+  padding: 100px 5%;
   .blog-img {
     @include box-shadow(15px);
   }
@@ -76,3 +76,22 @@
     }
   }
 }
+
+aside {
+  background-color: $color-green;
+  .aside-content {
+    padding: 100px 5%;
+    h3 {
+      font-size: 1.5rem;
+      letter-spacing: 2px;
+      margin: 15px 0 5px 0;
+      &:last-of-type {
+        margin-top: 25px;
+      }
+    }
+    p, ul {
+      font-size: 1rem;
+    }
+  }
+}
+

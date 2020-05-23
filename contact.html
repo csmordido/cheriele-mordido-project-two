@@ -11,14 +11,14 @@
 </head>
 <body>
   <!-- header starts -->
-  <header>
+  <header class="contact-header">
     <div class="top-bar">
       <div class="logo">
         <p>Mindn'Soul</p>
       </div>
 
       <nav class="top-nav">
-        <label for="mobile-menu" class="mobile-menu-label">&#9776;</label>
+        <label for="mobile-menu" class="mobile-menu-label"><span class="visually-hidden">View drop down menu</span>&#9776;</label>
         <input type="checkbox" id="mobile-menu">
         <ul>
           <li><a href="index.html">Home</a></li>
@@ -33,13 +33,13 @@
   </header>
   <!-- header ends -->
   <!-- form starts -->
-  <form action="">
-    <fieldset>
-      <label for="name">Name</label>
+  <form action="" class="contact-form">
+    <fieldset class="contact-fieldset">
+      <label for="name" class="visually-hidden">Name</label>
       <input type="text" name="" id="name" placeholder="Name">
-      <label for="email">Email address</label>
+      <label for="email" class="visually-hidden">Email address</label>
       <input type="email" name="" id="email" placeholder="Email address">
-      <label for="comment">Comment</label>
+      <label for="comment" class="visually-hidden">Comment</label>
       <textarea name="" id="comment" cols="30" rows="10" placeholder="Comment"></textarea>
       <button type="submit">Submit</button>
     </fieldset>

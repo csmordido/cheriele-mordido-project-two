@@ -407,12 +407,15 @@ form fieldset textarea {
 }
 
 form fieldset textarea {
-  width: 100%;
   height: 200px;
   border: 2px solid #ffc600;
   font-family: Lato, sans-serif;
   font-size: 1rem;
   font-weight: 300;
+}
+
+form fieldset button {
+  width: 100%;
 }
 
 input[type="text"],
@@ -667,8 +670,7 @@ section.about2 {
 .blog-header h1 {
   font-size: 3.5rem;
   color: #ffc600;
-  margin-left: 5%;
-  margin-top: 75px;
+  margin: 75px 0 0 5%;
 }
 
 .post {
@@ -783,6 +785,29 @@ aside .aside-content h3:last-of-type {
 
 aside .aside-content p, aside .aside-content ul {
   font-size: 1rem;
+}
+
+.contact-header {
+  height: 300px;
+  background: url("../images/contact-header.jpg") no-repeat bottom right;
+  background-size: cover;
+}
+
+.contact-header h1 {
+  font-size: 3.5rem;
+  color: #ffc600;
+  margin: 75px 5% 0 5%;
+  line-height: 0.7;
+}
+
+.contact-form {
+  background-color: #262725;
+}
+
+.contact-fieldset input[type="text"],
+.contact-fieldset input[type="email"],
+.contact-fieldset textarea {
+  background-color: #262725;
 }
 
 footer {

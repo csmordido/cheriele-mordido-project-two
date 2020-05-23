@@ -1,0 +1,23 @@
+.contact-header {
+  height: 300px;
+  background: url('../images/contact-header.jpg') no-repeat bottom right;
+  background-size: cover;
+}
+
+.contact-header h1 {
+  @include header-styles();
+  margin: 75px 5% 0 5%;
+  line-height: 0.7;
+}
+
+.contact-form {
+  background-color: $color-grey;
+}
+
+.contact-fieldset {
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    background-color: $color-grey;
+  }
+}

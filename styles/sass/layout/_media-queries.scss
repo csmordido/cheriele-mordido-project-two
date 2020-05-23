@@ -1,4 +1,4 @@
-// landscape phones and tablets
+// for landscape phones
 @media (min-width: 480px) {
   .gallery-imgs {
     max-width: 400px;
@@ -8,5 +8,68 @@
   .aside-content {
     max-width: 368px;
     margin: 0 auto;
+  }
+}
+
+// for tablets
+@media (min-width: 768px) {
+  .wrapper {
+    width: 70%;
+  }
+
+  .site-title {
+    align-items: end;
+  }
+
+  .about2-content, .about3-content {
+    padding: 0 15%;
+  }
+
+  .blog-header {
+    height: 400px;
+    background-position: bottom right;
+  }
+
+  .post {
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+
+  .comments {
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+
+  .comments-content {
+    flex-direction: initial;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    .comments-img {
+      flex: 1 0 92px;
+    }
+    .comments-text {
+      flex: 2 0 calc(80% - 30px);
+      margin-left: 30px;
+      h3 {
+        margin-top: 0;
+      }
+    }
+  }
+}
+
+form {
+  padding-left: 15%;
+  padding-right: 15%;
+  fieldset {
+    flex-direction: initial;
+    flex-wrap: wrap;
+    input[type="text"] {
+      flex: 1 0 47%;
+      margin-right: 3%;
+    }
+    input[type="email"] {
+      flex: 1 0 47%;
+      margin-left: 3%;
+    }
   }
 }

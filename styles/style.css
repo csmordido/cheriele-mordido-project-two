@@ -584,15 +584,6 @@ section.about2 {
   margin-bottom: 50px;
 }
 
-footer {
-  padding: 10px;
-  background-color: #262725;
-}
-
-footer p {
-  text-align: center;
-}
-
 .blog-header {
   height: 300px;
   background: url("../images/blog-header.jpg") no-repeat bottom right -200px;
@@ -696,4 +687,13 @@ footer p {
   color: #ffc600;
   font-weight: 400;
   margin: 10px 0;
+}
+
+footer {
+  padding: 10px;
+  background-color: #262725;
+}
+
+footer p {
+  text-align: center;
 }

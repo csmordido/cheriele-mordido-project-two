@@ -890,7 +890,7 @@ footer p {
   .about2-content, .about3-content {
     padding: 0 15%;
   }
-  .blog-header {
+  .blog-header, .contact-header {
     height: 400px;
     background-position: bottom right;
   }
@@ -929,6 +929,11 @@ footer p {
   }
 }
 
+.contact-header h1 {
+  width: initial;
+  line-height: initial;
+}
+
 form {
   padding-left: 15%;
   padding-right: 15%;
@@ -955,4 +960,55 @@ form fieldset input[type="email"] {
       -ms-flex: 1 0 47%;
           flex: 1 0 47%;
   margin-left: 3%;
+}
+
+@media (min-width: 940px) {
+  .wrapper {
+    width: 90%;
+  }
+  .top-bar {
+    padding: 5% 10%;
+  }
+  .top-nav label, .top-nav input {
+    display: none;
+    position: initial;
+  }
+  .top-nav ul {
+    display: initial;
+    -webkit-box-shadow: initial;
+            box-shadow: initial;
+    position: initial;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .top-nav ul li {
+    background-color: initial;
+    margin-right: 20px;
+  }
+  .top-nav ul li:last-child {
+    margin-right: 0;
+  }
+  .top-nav li a:hover,
+  .top-nav li a:focus {
+    color: #ffc600;
+  }
+  .home-header {
+    height: 755px;
+  }
+  .site-title {
+    display: initial;
+  }
+  .header-block-img {
+    display: initial;
+  }
+  .header-block-img img {
+    max-width: 695px;
+  }
+}
+
+.scroll-up-btn {
+  display: none;
 }

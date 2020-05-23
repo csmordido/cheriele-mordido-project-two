@@ -1,4 +1,4 @@
-// for landscape phones
+// for landscape phones and tablets
 @media (min-width: 480px) {
   .gallery-imgs {
     max-width: 400px;
@@ -11,7 +11,7 @@
   }
 }
 
-// for tablets
+// for tablets and small desktops
 @media (min-width: 768px) {
   .wrapper {
     width: 70%;
@@ -25,7 +25,7 @@
     padding: 0 15%;
   }
 
-  .blog-header {
+  .blog-header, .contact-header {
     height: 400px;
     background-position: bottom right;
   }
@@ -57,6 +57,11 @@
   }
 }
 
+.contact-header h1 {
+  width: initial;
+  line-height: initial;
+}
+
 form {
   padding-left: 15%;
   padding-right: 15%;
@@ -72,4 +77,62 @@ form {
       margin-left: 3%;
     }
   }
+}
+
+// for desktops 
+@media (min-width: 940px) {
+  .wrapper {
+    width: 90%;
+  }
+
+  .top-bar {
+    padding: 5% 10%;
+  }
+
+  .top-nav {
+    label, input {
+    display: none;
+    position: initial;
+    }
+    ul {
+      display: initial;
+      box-shadow: initial;
+      position: initial;
+      display: flex;
+      flex-wrap: wrap;
+      li {
+        background-color: initial;
+        margin-right: 20px;
+        &:last-child {
+          margin-right: 0;
+        }
+      }
+    }
+  }
+
+  .top-nav li a:hover,
+  .top-nav li a:focus {
+    color: $color-gold;
+  }
+
+  .home-header {
+    height: 755px;
+  }
+
+  .site-title {
+    display: initial;
+  }
+
+  .header-block-img {
+    display: initial;
+    img {
+      max-width: 695px;
+    }
+  }
+}
+
+
+
+.scroll-up-btn {
+  display: none;
 }

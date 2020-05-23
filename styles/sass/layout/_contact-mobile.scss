@@ -21,3 +21,26 @@
     background-color: $color-grey;
   }
 }
+
+.social-links {
+  li {
+    display: inline-block;
+    margin-right: 10px;
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+  a {
+    color: $color-gold;
+    font-size: 1.4rem;
+  }
+}
+
+.contact-info {
+  width: 205px;
+  margin: 0 auto;
+  padding: 100px 0;
+  p:first-child {
+    margin: 20px 0 25px 0;
+  }
+}

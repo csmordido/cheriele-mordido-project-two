@@ -810,6 +810,30 @@ aside .aside-content p, aside .aside-content ul {
   background-color: #262725;
 }
 
+.social-links li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.social-links li:last-child {
+  margin-right: 0;
+}
+
+.social-links a {
+  color: #ffc600;
+  font-size: 1.4rem;
+}
+
+.contact-info {
+  width: 205px;
+  margin: 0 auto;
+  padding: 100px 0;
+}
+
+.contact-info p:first-child {
+  margin: 20px 0 25px 0;
+}
+
 footer {
   padding: 10px;
   background-color: #262725;

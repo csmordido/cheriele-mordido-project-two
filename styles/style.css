@@ -308,10 +308,11 @@ div.about1-icon i {
   border: 1px solid #555f02;
 }
 
-.logo {
+.logo a {
   color: #ffc600;
   font-size: 1.8rem;
   line-height: 1.2;
+  text-decoration: none;
 }
 
 input[type="checkbox"] {

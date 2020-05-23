@@ -998,11 +998,36 @@ form fieldset input[type="email"] {
   .home-header {
     height: 755px;
   }
+  .header-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+  }
   .site-title {
     display: initial;
+    margin: initial;
+    -webkit-box-flex: 1;
+        -ms-flex: 1 0 calc(50% - 15px);
+            flex: 1 0 calc(50% - 15px);
+    margin-left: 15px;
+    padding-top: 30px;
+  }
+  .site-title h1 {
+    font-size: 5rem;
+  }
+  .site-title h1 span {
+    font-size: 2rem;
   }
   .header-block-img {
     display: initial;
+    -webkit-box-flex: 1;
+        -ms-flex: 1 0 calc(50% - 15px);
+            flex: 1 0 calc(50% - 15px);
+    margin-right: 15px;
   }
   .header-block-img img {
     max-width: 695px;

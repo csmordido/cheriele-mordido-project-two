@@ -63,6 +63,8 @@ section.about2 {
 
 div.intro-img {
   @include box-shadow();
+  max-width: 304px;
+  margin: 0 auto;
 }
 
 section.gallery, 

@@ -321,7 +321,7 @@ input[type="checkbox"] {
 }
 
 .mobile-menu-label {
-  color: #fafffe;
+  color: #ffc600;
 }
 
 .top-bar {
@@ -349,11 +349,13 @@ input[type="checkbox"] {
   top: 37px;
   right: 5px;
   display: none;
+  -webkit-box-shadow: -3px 3px #ffc600;
+          box-shadow: -3px 3px #ffc600;
 }
 
 .top-nav li {
   text-align: right;
-  background-color: rgba(85, 95, 2, 0.6);
+  background-color: #555f02;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -453,6 +455,23 @@ input[type="email"],
   opacity: 1;
   font-size: 1rem;
   font-weight: 300;
+}
+
+.scroll-up-btn {
+  text-decoration: none;
+  color: #fafffe;
+  padding: 10px 15px;
+  background-color: #555f02;
+  -webkit-box-shadow: -3px 3px #ffc600;
+          box-shadow: -3px 3px #ffc600;
+  position: fixed;
+  z-index: 10;
+  bottom: 3%;
+  right: 5%;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
@@ -799,6 +818,7 @@ aside .aside-content p, aside .aside-content ul {
   color: #ffc600;
   margin: 75px 5% 0 5%;
   line-height: 0.7;
+  width: 180px;
 }
 
 .contact-form {

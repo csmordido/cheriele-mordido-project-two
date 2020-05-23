@@ -1,0 +1,11 @@
+.scroll-up-btn {
+  text-decoration: none;
+  color: $color-light;
+  padding: 10px 15px;
+  background-color: $color-green;
+  @include box-shadow(-3px, 3px, $color-gold);
+  position: fixed;
+  z-index: 10;
+  bottom: 3%;
+  right: 5%;
+}

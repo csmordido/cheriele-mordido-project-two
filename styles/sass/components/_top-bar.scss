@@ -11,7 +11,7 @@ input[type="checkbox"] {
 }
 
 .mobile-menu-label {
-  color: $color-light;
+  color: $color-gold;
 }
 
 .top-bar {
@@ -32,12 +32,13 @@ input[type="checkbox"] {
       top: 37px;
       right: 5px;
       display: none;
+      @include box-shadow(-3px, 3px, $color-gold);
     }
 }
 
 .top-nav li {
   text-align: right;
-  background-color: $color-green-rgba;
+  background-color: $color-green;
   display: flex;
   align-items: center;
   justify-content: center;

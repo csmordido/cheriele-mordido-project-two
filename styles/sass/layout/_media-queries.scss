@@ -55,26 +55,26 @@
       }
     }
   }
-}
 
-.contact-header h1 {
-  width: initial;
-  line-height: initial;
-}
+  .contact-header h1 {
+    width: initial;
+    line-height: initial;
+  }
 
-form {
-  padding-left: 15%;
-  padding-right: 15%;
-  fieldset {
-    flex-direction: initial;
-    flex-wrap: wrap;
-    input[type="text"] {
-      flex: 1 0 47%;
-      margin-right: 3%;
-    }
-    input[type="email"] {
-      flex: 1 0 47%;
-      margin-left: 3%;
+  form {
+    padding-left: 15%;
+    padding-right: 15%;
+    fieldset {
+      flex-direction: initial;
+      flex-wrap: wrap;
+      input[type="text"] {
+        flex: 1 0 47%;
+        margin-right: 3%;
+      }
+      input[type="email"] {
+        flex: 1 0 47%;
+        margin-left: 3%;
+      }
     }
   }
 }
@@ -152,117 +152,115 @@ form {
       max-width: 695px;
     }
   }
-}
 
-section.intro {
-  padding-top: 150px;
-}
 
-.intro-content {
-  display: flex;
-  align-items: center;
-  .intro-txt {
-    align-items: start;
-    flex: 2 0 calc(70% - 100px);
-    margin-right: 100px;
-    h2 {
-      font-size: 2.3rem;
-      letter-spacing: 3px;
+  section.intro {
+    padding-top: 150px;
+  }
+
+  .intro-content {
+    display: flex;
+    align-items: center;
+    .intro-txt {
+      align-items: start;
+      flex: 2 0 calc(70% - 100px);
+      margin-right: 100px;
+      h2 {
+        font-size: 2.3rem;
+        letter-spacing: 3px;
+      }
+      p {
+        margin-bottom: 15px;
+      }
+      a {
+        margin-bottom: 0;
+      }
     }
-    p {
-      margin-bottom: 15px;
-    }
-    a {
-      margin-bottom: 0;
+    .intro-img {
+      flex: 1 0 30%;
     }
   }
-  .intro-img {
-    flex: 1 0 30%;
-  }
-}
 
-.gallery-imgs {
-  display: flex;
-  max-width: initial;
-  margin: initial;
-  li {
-    margin: 0 15px;
-    flex: 1 0 calc(33.3% - 30px);
-    &:first-child {
-      margin-left: 0;
-    }
-    &:last-child {
-      margin-right: 0;
+  .gallery-imgs {
+    display: flex;
+    max-width: initial;
+    margin: initial;
+    li {
+      margin: 0 15px;
+      flex: 1 0 calc(33.3% - 30px);
+      &:first-child {
+        margin-left: 0;
+      }
+      &:last-child {
+        margin-right: 0;
+      }
     }
   }
-}
 
-.about1-contents-container {
-  display: flex;
-  flex-wrap: wrap;
-  .about1-content {
-    flex: 1 0 50%;
-    .about1-text {
-      flex-basis: 80%;
+  .about1-contents-container {
+    display: flex;
+    flex-wrap: wrap;
+    .about1-content {
+      flex: 1 0 50%;
+      .about1-text {
+        flex-basis: 80%;
+      }
     }
   }
-}
 
-section.about2 {
-  padding: initial;
-}
-
-.about2-contents-container {
-  display: flex;
-  .about2-content {
+  section.about2 {
     padding: initial;
-    flex: 1 0 calc(50% - 75px);
-    margin: 0 75px;
-    max-width: 670px;
-    .about2-img {
-      margin: 0 0 100px 0;
-    } 
+  }
+
+  .about2-contents-container {
+    display: flex;
+    .about2-content {
+      padding: initial;
+      flex: 1 0 calc(50% - 75px);
+      margin: 0 75px;
+      max-width: 670px;
+      .about2-img {
+        margin: 0 0 100px 0;
+      } 
+      .about2-text {
+        padding: 0;
+      }
+    }
+  }
+
+  .about2-content:first-child {
+    margin-left: 0;
+    position: relative;
+    top: -20px;
     .about2-text {
-      padding: 0;
+      padding-left: 100px;
+      align-items: end;
+      p {
+        text-align: right;
+      }
     }
   }
-}
 
-
-.about2-content:first-child {
-  margin-left: 0;
-  position: relative;
-  top: -20px;
-  .about2-text {
-    padding-left: 100px;
-    align-items: end;
-    p {
-      text-align: right;
+  .about2-content:last-child {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-right: 0;
+    position: relative;
+    bottom: -20px;
+    .about2-img {
+      margin: 100px 0 0 0;
     }
+    .about2-text {
+      align-items: start;
+      padding-right: 100px;
+    } 
   }
-}
 
-.about2-content:last-child {
-  display: flex;
-  flex-direction: column-reverse;
-  margin-right: 0;
-  position: relative;
-  bottom: -20px;
-  .about2-img {
-    margin: 100px 0 0 0;
+  .about3-content {
+    padding: 100px 15%;
   }
-  .about2-text {
-    align-items: start;
-    padding-right: 100px;
-  } 
-}
 
-.about3-content {
-  padding: 100px 15%;
-}
-
-
-
-.scroll-up-btn {
-  display: none;
+  .scroll-up-btn {
+    display: none;
+  }
 }

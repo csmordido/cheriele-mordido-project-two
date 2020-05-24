@@ -86,7 +86,9 @@ form {
   }
 
   .top-bar {
-    padding: 5% 10%;
+    padding: 20px 0;
+    max-width: 1200px;
+    margin: 0 auto;
   }
 
   .top-nav {
@@ -163,6 +165,10 @@ section.intro {
     align-items: start;
     flex: 2 0 calc(70% - 100px);
     margin-right: 100px;
+    h2 {
+      font-size: 2.3rem;
+      letter-spacing: 3px;
+    }
     p {
       margin-bottom: 15px;
     }
@@ -180,8 +186,8 @@ section.intro {
   max-width: initial;
   margin: initial;
   li {
-    margin: 0 10px;
-    flex: 1 0 calc(33.3% - 20px);
+    margin: 0 15px;
+    flex: 1 0 calc(33.3% - 30px);
     &:first-child {
       margin-left: 0;
     }
@@ -196,6 +202,9 @@ section.intro {
   flex-wrap: wrap;
   .about1-content {
     flex: 1 0 50%;
+    .about1-text {
+      flex-basis: 80%;
+    }
   }
 }
 
@@ -207,21 +216,49 @@ section.about2 {
   display: flex;
   .about2-content {
     padding: initial;
-    flex: 1 0 50%;
+    flex: 1 0 calc(50% - 75px);
+    margin: 0 75px;
+    max-width: 670px;
     .about2-img {
       margin: 0 0 100px 0;
     } 
+    .about2-text {
+      padding: 0;
+    }
   }
 }
 
 
 .about2-content:first-child {
+  margin-left: 0;
+  position: relative;
+  top: -20px;
   .about2-text {
+    padding-left: 100px;
     align-items: end;
     p {
       text-align: right;
     }
   }
+}
+
+.about2-content:last-child {
+  display: flex;
+  flex-direction: column-reverse;
+  margin-right: 0;
+  position: relative;
+  bottom: -20px;
+  .about2-img {
+    margin: 100px 0 0 0;
+  }
+  .about2-text {
+    align-items: start;
+    padding-right: 100px;
+  } 
+}
+
+.about3-content {
+  padding: 100px 15%;
 }
 
 

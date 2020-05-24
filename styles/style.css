@@ -400,6 +400,7 @@ form fieldset {
 form fieldset input[type="text"],
 form fieldset input[type="email"],
 form fieldset textarea {
+  resize: none;
   width: 100%;
   margin-bottom: 30px;
   padding: 15px;
@@ -993,7 +994,7 @@ footer p {
     color: #ffc600;
   }
   .home-header {
-    height: 755px;
+    height: 600px;
     background-position: center;
     position: relative;
   }
@@ -1162,6 +1163,48 @@ footer p {
   }
   .about3-content {
     padding: 100px 15%;
+  }
+  .blog-header {
+    height: 500px;
+  }
+  .blog-header h1 {
+    font-size: 5rem;
+    letter-spacing: 4px;
+    max-width: 1200px;
+    margin: 75px auto 0 auto;
+  }
+  .blog-contents-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: start;
+    padding-bottom: 50px;
+  }
+  .blog-contents-container .blog-post {
+    -webkit-box-flex: 2;
+        -ms-flex: 2 0 70%;
+            flex: 2 0 70%;
+  }
+  .blog-contents-container .blog-post .post {
+    padding: 0;
+    border-right: 4px solid #555f02;
+    border-bottom: 4px solid #555f02;
+  }
+  .blog-contents-container aside {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 0 30%;
+            flex: 1 0 30%;
+  }
+  .blog-text, .comments, form {
+    padding: 20px 50px 30px 100px;
+  }
+  .comments {
+    padding-top: 50px;
+  }
+  .comments h2 {
+    margin-bottom: 40px;
   }
   .scroll-up-btn {
     display: none;

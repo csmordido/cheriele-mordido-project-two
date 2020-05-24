@@ -1,4 +1,4 @@
-// for landscape phones and tablets
+// for landscape phones and portrait tablets
 @media (min-width: 480px) {
   .gallery-imgs {
     max-width: 400px;
@@ -85,6 +85,7 @@
     width: 90%;
   }
 
+  // top navigation
   .top-bar {
     padding: 20px 0;
     max-width: 1200px;
@@ -117,8 +118,9 @@
     color: $color-gold;
   }
 
+  // home page
   .home-header {
-    height: 755px;
+    height: 600px;
     background-position: center;
     position: relative;
   }
@@ -260,6 +262,47 @@
     padding: 100px 15%;
   }
 
+  // blog page
+  .blog-header {
+    height: 500px;
+    h1 {
+      font-size: 5rem;
+      letter-spacing: 4px;
+      max-width: 1200px;
+      margin: 75px auto 0 auto;
+    }
+  }
+
+  .blog-contents-container {
+    display: flex;
+    align-items: start;
+    padding-bottom: 50px;
+    .blog-post {
+      flex: 2 0 70%;
+      .post {
+        padding: 0;
+        border-right: 4px solid $color-green;
+        border-bottom: 4px solid $color-green;
+      }
+    }
+    aside {
+      flex: 1 0 30%;
+    }
+  }
+
+  .blog-text, .comments, form {
+    padding: 20px 50px 30px 100px;
+  }
+
+  .comments {
+    padding-top: 50px;
+    h2 {
+      margin-bottom: 40px;
+    }
+  }
+
+
+  // scroll up button
   .scroll-up-btn {
     display: none;
   }

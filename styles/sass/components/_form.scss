@@ -7,6 +7,7 @@ form {
     input[type="text"],
     input[type="email"],
     textarea {
+      resize: none;
       width: 100%;
       margin-bottom: 30px;
       padding: 15px;

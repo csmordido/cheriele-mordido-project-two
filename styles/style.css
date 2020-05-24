@@ -1255,9 +1255,9 @@ footer p {
     -webkit-box-shadow: 15px 15px #ffc600;
             box-shadow: 15px 15px #ffc600;
     -webkit-box-flex: 2;
-        -ms-flex: 2 0 calc(80% - 50px);
-            flex: 2 0 calc(80% - 50px);
-    margin-right: 100px;
+        -ms-flex: 2 0 calc(80% - 130px);
+            flex: 2 0 calc(80% - 130px);
+    margin-right: 130px;
     position: relative;
     top: -200px;
     max-width: 900px;

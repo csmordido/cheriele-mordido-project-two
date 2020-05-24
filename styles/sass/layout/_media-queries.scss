@@ -349,8 +349,8 @@
     .contact-form {
       padding: 50px;
       @include box-shadow(15px, 15px, $color-gold);
-      flex: 2 0 calc(80% - 50px);
-      margin-right: 100px;
+      flex: 2 0 calc(80% - 130px);
+      margin-right: 130px;
       position: relative;
       top: -200px;
       max-width: 900px;

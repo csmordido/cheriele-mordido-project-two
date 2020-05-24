@@ -1180,12 +1180,14 @@ footer p {
     -webkit-box-align: start;
         -ms-flex-align: start;
             align-items: start;
-    padding-bottom: 50px;
   }
   .blog-contents-container .blog-post {
     -webkit-box-flex: 2;
-        -ms-flex: 2 0 70%;
-            flex: 2 0 70%;
+        -ms-flex: 2 0 calc(70% - 50px);
+            flex: 2 0 calc(70% - 50px);
+    margin-right: 50px;
+    position: relative;
+    top: -85px;
   }
   .blog-contents-container .blog-post .post {
     padding: 0;
@@ -1194,17 +1196,42 @@ footer p {
   }
   .blog-contents-container aside {
     -webkit-box-flex: 1;
-        -ms-flex: 1 0 30%;
-            flex: 1 0 30%;
+        -ms-flex: 1 0 calc(30% - 50px);
+            flex: 1 0 calc(30% - 50px);
+    margin-left: 50px;
+    border-left: 15px solid #555f02;
+    border-bottom: 13px solid #555f02;
+    position: relative;
+    top: 100px;
   }
-  .blog-text, .comments, form {
+  .blog-contents-container aside .aside-content {
+    padding: 0;
+    position: relative;
+    top: -15px;
+  }
+  .post .blog-img {
+    margin-right: 15px;
+    position: relative;
+    top: -15px;
+  }
+  .blog-text, .comments {
     padding: 20px 50px 30px 100px;
+  }
+  .blog-text h2 {
+    margin-top: 35px;
+  }
+  form {
+    padding: 20px 0 0 100px;
   }
   .comments {
     padding-top: 50px;
   }
   .comments h2 {
     margin-bottom: 40px;
+  }
+  .comments .comments-content {
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
   }
   .scroll-up-btn {
     display: none;

@@ -276,9 +276,12 @@
   .blog-contents-container {
     display: flex;
     align-items: start;
-    padding-bottom: 50px;
+    // padding-bottom: 50px;
     .blog-post {
-      flex: 2 0 70%;
+      flex: 2 0 calc(70% - 50px);
+      margin-right: 50px;
+      position: relative;
+      top: -85px;
       .post {
         padding: 0;
         border-right: 4px solid $color-green;
@@ -286,18 +289,45 @@
       }
     }
     aside {
-      flex: 1 0 30%;
+      flex: 1 0 calc(30% - 50px);
+      margin-left: 50px;
+      border-left: 15px solid $color-green;
+      border-bottom: 13px solid $color-green;
+      position: relative;
+      top: 100px;
+      .aside-content {
+        padding: 0;
+        position: relative;
+        top: -15px;
+      }
     }
   }
 
-  .blog-text, .comments, form {
+  .post .blog-img {
+    margin-right: 15px;
+    position: relative;
+    top: -15px;
+  }
+
+  .blog-text, .comments {
     padding: 20px 50px 30px 100px;
+  }
+
+  .blog-text h2 {
+    margin-top: 35px;
+  }
+
+  form {
+    padding: 20px 0 0 100px;
   }
 
   .comments {
     padding-top: 50px;
     h2 {
       margin-bottom: 40px;
+    }
+    .comments-content {
+      flex-wrap: nowrap;
     }
   }
 

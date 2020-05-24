@@ -366,6 +366,11 @@
     width: auto;
   }
 
+  .social-links li a:hover,
+  .social-links li a:focus {
+    color: $color-light;
+  }
+
   
 
   

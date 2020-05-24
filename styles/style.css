@@ -458,6 +458,11 @@ input[type="email"],
   font-weight: 300;
 }
 
+input:focus, textarea:focus {
+  -webkit-box-shadow: -8px 8px 5px #000;
+          box-shadow: -8px 8px 5px #000;
+}
+
 .scroll-up-btn {
   text-decoration: none;
   color: #fafffe;
@@ -1272,6 +1277,10 @@ footer p {
         -ms-flex: 1 0 20%;
             flex: 1 0 20%;
     width: auto;
+  }
+  .social-links li a:hover,
+  .social-links li a:focus {
+    color: #fafffe;
   }
   .scroll-up-btn {
     display: none;

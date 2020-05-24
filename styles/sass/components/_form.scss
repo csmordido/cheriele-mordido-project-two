@@ -37,3 +37,7 @@ input[type="email"],
   font-size: 1rem;
   font-weight: 300;
 }
+
+input:focus, textarea:focus {
+  box-shadow: -8px 8px 5px #000;
+}

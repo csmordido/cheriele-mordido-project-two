@@ -997,6 +997,8 @@ form fieldset input[type="email"] {
   }
   .home-header {
     height: 755px;
+    background-position: center;
+    position: relative;
   }
   .header-content {
     display: -webkit-box;
@@ -1006,6 +1008,8 @@ form fieldset input[type="email"] {
     -webkit-box-direction: reverse;
         -ms-flex-direction: row-reverse;
             flex-direction: row-reverse;
+    position: absolute;
+    bottom: -100px;
   }
   .site-title {
     display: initial;
@@ -1032,6 +1036,111 @@ form fieldset input[type="email"] {
   .header-block-img img {
     max-width: 695px;
   }
+}
+
+section.intro {
+  padding-top: 150px;
+}
+
+.intro-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.intro-content .intro-txt {
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+  -webkit-box-flex: 2;
+      -ms-flex: 2 0 calc(70% - 100px);
+          flex: 2 0 calc(70% - 100px);
+  margin-right: 100px;
+}
+
+.intro-content .intro-txt p {
+  margin-bottom: 15px;
+}
+
+.intro-content .intro-txt a {
+  margin-bottom: 0;
+}
+
+.intro-content .intro-img {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 30%;
+          flex: 1 0 30%;
+}
+
+.gallery-imgs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: initial;
+  margin: initial;
+}
+
+.gallery-imgs li {
+  margin: 0 10px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 calc(33.3% - 20px);
+          flex: 1 0 calc(33.3% - 20px);
+}
+
+.gallery-imgs li:first-child {
+  margin-left: 0;
+}
+
+.gallery-imgs li:last-child {
+  margin-right: 0;
+}
+
+.about1-contents-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.about1-contents-container .about1-content {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 50%;
+          flex: 1 0 50%;
+}
+
+section.about2 {
+  padding: initial;
+}
+
+.about2-contents-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.about2-contents-container .about2-content {
+  padding: initial;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 50%;
+          flex: 1 0 50%;
+}
+
+.about2-contents-container .about2-content .about2-img {
+  margin: 0 0 100px 0;
+}
+
+.about2-content:first-child .about2-text {
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+}
+
+.about2-content:first-child .about2-text p {
+  text-align: right;
 }
 
 .scroll-up-btn {

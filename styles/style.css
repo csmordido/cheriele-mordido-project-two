@@ -331,7 +331,7 @@ input[type="checkbox"] {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 5%;
+  padding-top: 20px;
 }
 
 .top-nav {
@@ -466,14 +466,14 @@ input:focus, textarea:focus {
 .scroll-up-btn {
   text-decoration: none;
   color: #fafffe;
-  padding: 10px 15px;
+  padding: 8px 12px;
   background-color: #555f02;
   -webkit-box-shadow: -3px 3px #ffc600;
           box-shadow: -3px 3px #ffc600;
   position: fixed;
   z-index: 10;
-  bottom: 3%;
-  right: 5%;
+  bottom: 15px;
+  right: 15px;
 }
 
 html {
@@ -1116,6 +1116,9 @@ footer p {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
   .about2-contents-container .about2-content {
     padding: initial;
@@ -1209,6 +1212,7 @@ footer p {
     border-bottom: 13px solid #555f02;
     position: relative;
     top: 120px;
+    max-width: 368px;
   }
   .blog-contents-container aside .aside-content {
     padding: 0;
@@ -1253,7 +1257,9 @@ footer p {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    padding: 100px 70px 0 70px;
+    padding-top: 100px;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
   }
   .contact-contents-container .contact-form {
     padding: 50px;

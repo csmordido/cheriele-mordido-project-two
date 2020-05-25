@@ -216,6 +216,7 @@
 
   .about2-contents-container {
     display: flex;
+    justify-content: space-between;
     .about2-content {
       padding: initial;
       flex: 1 0 calc(50% - 75px);
@@ -295,6 +296,7 @@
       border-bottom: 13px solid $color-green;
       position: relative;
       top: 120px;
+      max-width: 368px;
       .aside-content {
         padding: 0;
         position: relative;
@@ -345,7 +347,8 @@
 
   .contact-contents-container {
     display: flex;
-    padding: 100px 70px 0 70px;
+    padding-top: 100px;
+    justify-content: space-around;
     .contact-form {
       padding: 50px;
       @include box-shadow(15px, 15px, $color-gold);

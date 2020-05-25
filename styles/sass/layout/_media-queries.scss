@@ -19,6 +19,7 @@
 
   .site-title {
     align-items: end;
+    height: 290px;
   }
 
   .about2-content, .about3-content {
@@ -28,6 +29,10 @@
   .blog-header, .contact-header {
     height: 400px;
     background-position: bottom right;
+  }
+
+  .blog-header h1 {
+    margin-top: 160px;
   }
 
   .post {
@@ -57,8 +62,8 @@
   }
 
   .contact-header h1 {
-    width: initial;
     line-height: initial;
+    margin-top: 160px;
   }
 
   form {
@@ -86,12 +91,6 @@
   }
 
   // top navigation
-  .top-bar {
-    padding: 20px 0;
-    max-width: 1200px;
-    margin: 0 auto;
-  }
-
   .top-nav {
     label, input {
     display: none;
@@ -111,6 +110,11 @@
         }
       }
     }
+  }
+
+  .logo a:hover,
+  .logo a:focus {
+    color: $color-light;
   }
 
   .top-nav li a:hover,
@@ -154,7 +158,6 @@
       max-width: 695px;
     }
   }
-
 
   section.intro {
     padding-top: 150px;
@@ -270,8 +273,7 @@
     h1 {
       font-size: 5rem;
       letter-spacing: 4px;
-      max-width: 1200px;
-      margin: 200px auto 0 auto;
+      margin-top: 200px;
     }
   }
 
@@ -340,14 +342,13 @@
     h1 {
       font-size: 5rem;
       letter-spacing: 4px;
-      max-width: 1200px;
-      margin: 200px auto 0 auto;
+      margin-top: 200px;
     }
   }
 
   .contact-contents-container {
     display: flex;
-    padding-top: 100px;
+    padding: 100px 50px 0 50px;
     justify-content: space-around;
     .contact-form {
       padding: 50px;
@@ -373,10 +374,6 @@
   .social-links li a:focus {
     color: $color-light;
   }
-
-  
-
-  
 
   // scroll up button
   .scroll-up-btn {

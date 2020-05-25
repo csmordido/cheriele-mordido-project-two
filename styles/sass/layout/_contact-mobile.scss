@@ -6,9 +6,8 @@
 
 .contact-header h1 {
   @include header-styles();
-  margin: 75px 5% 0 5%;
+  margin-top: 75px;
   line-height: 0.7;
-  width: 180px;
 }
 
 .contact-form {

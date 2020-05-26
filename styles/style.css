@@ -884,8 +884,14 @@ footer p {
   .site-title {
     -webkit-box-align: end;
         -ms-flex-align: end;
-            align-items: end;
+            align-items: flex-end;
     height: 290px;
+  }
+  .site-title h1 {
+    font-size: 5rem;
+  }
+  .site-title h1 span {
+    font-size: 1.8rem;
   }
   .about2-content, .about3-content {
     padding: 0 15%;
@@ -1020,7 +1026,8 @@ footer p {
     padding-top: 30px;
   }
   .site-title h1 {
-    font-size: 5rem;
+    font-size: 6rem;
+    letter-spacing: 2px;
   }
   .site-title h1 span {
     font-size: 2rem;
@@ -1028,9 +1035,9 @@ footer p {
   .header-block-img {
     display: initial;
     -webkit-box-flex: 1;
-        -ms-flex: 1 0 calc(50% - 15px);
-            flex: 1 0 calc(50% - 15px);
-    margin-right: 15px;
+        -ms-flex: 1 0 calc(50% - 20px);
+            flex: 1 0 calc(50% - 20px);
+    margin-right: 20px;
   }
   .header-block-img img {
     max-width: 695px;
@@ -1049,7 +1056,7 @@ footer p {
   .intro-content .intro-txt {
     -webkit-box-align: start;
         -ms-flex-align: start;
-            align-items: start;
+            align-items: flex-start;
     -webkit-box-flex: 2;
         -ms-flex: 2 0 calc(70% - 100px);
             flex: 2 0 calc(70% - 100px);
@@ -1139,7 +1146,7 @@ footer p {
     padding-left: 100px;
     -webkit-box-align: end;
         -ms-flex-align: end;
-            align-items: end;
+            align-items: flex-end;
   }
   .about2-content:first-child .about2-text p {
     text-align: right;
@@ -1162,7 +1169,7 @@ footer p {
   .about2-content:last-child .about2-text {
     -webkit-box-align: start;
         -ms-flex-align: start;
-            align-items: start;
+            align-items: flex-start;
     padding-right: 100px;
   }
   .about3-content {
@@ -1183,7 +1190,7 @@ footer p {
     display: flex;
     -webkit-box-align: start;
         -ms-flex-align: start;
-            align-items: start;
+            align-items: flex-start;
   }
   .blog-contents-container .blog-post {
     -webkit-box-flex: 2;
@@ -1191,7 +1198,7 @@ footer p {
             flex: 2 0 calc(70% - 100px);
     margin-right: 100px;
     position: relative;
-    top: -85px;
+    top: -100px;
   }
   .blog-contents-container .blog-post .post {
     padding: 0;
@@ -1224,6 +1231,12 @@ footer p {
   }
   .blog-text h2 {
     margin-top: 35px;
+  }
+  .blog-text h3 {
+    margin-bottom: 35px;
+  }
+  .blog-text p {
+    margin-bottom: 25px;
   }
   .blog-form {
     padding: 20px 0 0 120px;

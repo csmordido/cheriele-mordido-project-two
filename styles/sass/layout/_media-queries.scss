@@ -118,6 +118,11 @@
     }
   }
 
+  .logo a,
+  .top-nav li a {
+    transition: color 0.4s;
+  }
+
   .logo a:hover,
   .logo a:focus {
     color: $color-light;
@@ -383,6 +388,10 @@
     padding: 0;
     flex: 1 0 20%;
     width: auto;
+  }
+
+  .social-links li a {
+    transition: color 0.4s;
   }
 
   .social-links li a:hover,

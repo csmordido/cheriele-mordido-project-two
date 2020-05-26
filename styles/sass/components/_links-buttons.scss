@@ -10,6 +10,13 @@ button {
   border: none;
 }
 
+.intro-txt a,
+.about2-content a,
+.about3-content a,
+button {
+  transition: color 0.4s, background-color 0.4s;
+}
+
 .intro-txt a:hover,
 .intro-txt a:focus, 
 .about2-content a:hover, 
@@ -21,3 +28,4 @@ button:focus {
   color: $color-green;
   background-color: $color-light;
 } 
+

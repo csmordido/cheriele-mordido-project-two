@@ -277,6 +277,14 @@ button {
   border: none;
 }
 
+.intro-txt a,
+.about2-content a,
+.about3-content a,
+button {
+  -webkit-transition: color 0.4s, background-color 0.4s;
+  transition: color 0.4s, background-color 0.4s;
+}
+
 .intro-txt a:hover,
 .intro-txt a:focus,
 .about2-content a:hover,
@@ -992,6 +1000,11 @@ footer p {
   .top-nav ul li:last-child {
     margin-right: 0;
   }
+  .logo a,
+  .top-nav li a {
+    -webkit-transition: color 0.4s;
+    transition: color 0.4s;
+  }
   .logo a:hover,
   .logo a:focus {
     color: #fafffe;
@@ -1290,6 +1303,10 @@ footer p {
         -ms-flex: 1 0 20%;
             flex: 1 0 20%;
     width: auto;
+  }
+  .social-links li a {
+    -webkit-transition: color 0.4s;
+    transition: color 0.4s;
   }
   .social-links li a:hover,
   .social-links li a:focus {

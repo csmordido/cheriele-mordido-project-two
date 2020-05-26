@@ -28,20 +28,27 @@ input[type="checkbox"] {
       line-height: 1;
     }
     ul {
+      background-color: $color-green;
       position: absolute;
       top: 37px;
       right: 5px;
-      display: none;
+      visibility: hidden;
+      max-height: 0;
+      opacity: 0;
+      transition: max-height 0.4s, opacity 0.5s;
       @include box-shadow(-3px, 3px, $color-gold);
     }
 }
 
 .top-nav li {
   text-align: right;
-  background-color: $color-green;
   display: flex;
   align-items: center;
   justify-content: center;
+  visibility: hidden;
+  max-height: 0;
+  opacity: 0;
+  transition: max-height 0.4s, opacity 0.5s;
     a {
       text-decoration: none;
       text-transform: uppercase;
@@ -53,5 +60,13 @@ input[type="checkbox"] {
 }
 
 input[type="checkbox"]:checked + ul {
-  display: block;
+  visibility: visible;
+  opacity: 1;
+  max-height: 130px;
+}
+
+input[type="checkbox"]:checked + ul li {
+  visibility: visible;
+  opacity: 1;
+  max-height: 32.5px;
 }

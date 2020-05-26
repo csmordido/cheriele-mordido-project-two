@@ -103,13 +103,18 @@
     position: initial;
     }
     ul {
-      display: initial;
+      visibility: visible;
+      opacity: 1;
+      max-height: initial;
       box-shadow: initial;
       position: initial;
+      background-color: initial;
       display: flex;
       flex-wrap: wrap;
       li {
-        background-color: initial;
+        visibility: visible;
+        opacity: 1;
+        max-height: initial;
         margin-right: 20px;
         &:last-child {
           margin-right: 0;

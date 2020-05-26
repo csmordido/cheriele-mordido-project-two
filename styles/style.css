@@ -353,17 +353,21 @@ input[type="checkbox"] {
 }
 
 .top-nav ul {
+  background-color: #555f02;
   position: absolute;
   top: 37px;
   right: 5px;
-  display: none;
+  visibility: hidden;
+  max-height: 0;
+  opacity: 0;
+  -webkit-transition: max-height 0.4s, opacity 0.5s;
+  transition: max-height 0.4s, opacity 0.5s;
   -webkit-box-shadow: -3px 3px #ffc600;
           box-shadow: -3px 3px #ffc600;
 }
 
 .top-nav li {
   text-align: right;
-  background-color: #555f02;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -373,6 +377,11 @@ input[type="checkbox"] {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  visibility: hidden;
+  max-height: 0;
+  opacity: 0;
+  -webkit-transition: max-height 0.4s, opacity 0.5s;
+  transition: max-height 0.4s, opacity 0.5s;
 }
 
 .top-nav li a {
@@ -385,7 +394,15 @@ input[type="checkbox"] {
 }
 
 input[type="checkbox"]:checked + ul {
-  display: block;
+  visibility: visible;
+  opacity: 1;
+  max-height: 130px;
+}
+
+input[type="checkbox"]:checked + ul li {
+  visibility: visible;
+  opacity: 1;
+  max-height: 32.5px;
 }
 
 form {
@@ -983,10 +1000,13 @@ footer p {
     position: initial;
   }
   .top-nav ul {
-    display: initial;
+    visibility: visible;
+    opacity: 1;
+    max-height: initial;
     -webkit-box-shadow: initial;
             box-shadow: initial;
     position: initial;
+    background-color: initial;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -994,7 +1014,9 @@ footer p {
         flex-wrap: wrap;
   }
   .top-nav ul li {
-    background-color: initial;
+    visibility: visible;
+    opacity: 1;
+    max-height: initial;
     margin-right: 20px;
   }
   .top-nav ul li:last-child {
